@@ -17,4 +17,6 @@ console.log(animals.length);
 // kucing
 // domba
 // kuda
-for (i = 0; 3 < animals.length; i++) console.log(animals[i]);
+for (let i = 0; i < animals.length; i++) {
+  console.log(animals[i]);
+}
